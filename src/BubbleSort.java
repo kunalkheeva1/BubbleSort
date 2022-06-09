@@ -12,6 +12,7 @@ public class BubbleSort {
             }
         }
     }
+    //now creating a method to print the array
     public static void print(int[] arr){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
