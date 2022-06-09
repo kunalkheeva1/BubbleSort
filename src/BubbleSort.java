@@ -19,6 +19,14 @@ public class BubbleSort {
         }
         System.out.println();
     }
+    //lets try a method to print the array in reverse order to get the bubble sort done in the easiest way
+    public static void reversePrint(int []arr){
+        for(int i=arr.length-1; i>=0; i--){
+            System.out.print(arr[i] +" ");
+        }
+        System.out.println();
+    }
+
     //testing the methods in the actual loops
 
     public static void main(String[] args) {
@@ -26,5 +34,6 @@ public class BubbleSort {
         print(arr);
         bubbleSort(arr);
         print(arr);
+        reversePrint(arr);
     }
 }
