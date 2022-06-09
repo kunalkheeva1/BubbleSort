@@ -19,6 +19,7 @@ public class BubbleSort {
         }
         System.out.println();
     }
+    //testing the methods in the actual loops
 
     public static void main(String[] args) {
         int []arr= {2,35,1,3,5,5,4};
