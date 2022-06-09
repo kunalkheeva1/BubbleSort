@@ -1,5 +1,5 @@
 
-
+//unintentionally i created an algorithm which is descending bubble sort
 public class BubbleSort {
     public static void bubbleSort(int []arr){
         for(int i=0; i<arr.length-1; i++){
